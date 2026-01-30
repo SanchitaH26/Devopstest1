@@ -36,9 +36,9 @@ public class BankService
     public static void main(String[] args) {
         BankAccount acc=new BankAccount(5000);
         System.out.println("Balance:"+acc.getbal());
-        acc.deposit(1000);
+        acc.deposit(2000);
         System.out.println("After depositing the amount Balance is:"+acc.getbal());
-        acc.withdraw(500);
+        acc.withdraw(800);
         System.out.println("After withdrawing the amount Balance is:"+acc.getbal());
     }
 }
